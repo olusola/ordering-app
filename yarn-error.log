@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn add @react-native-safe-area-context
+  /usr/local/bin/node /usr/local/bin/yarn add @react-native-modal
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin:/usr/local/MacGPG2/bin:/opt/X11/bin:/Library/Apple/usr/bin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@react-native-safe-area-context: Request "https://registry.yarnpkg.com/@react-native-safe-area-context" returned a 405
+  Error: https://registry.yarnpkg.com/@react-native-modal: Request "https://registry.yarnpkg.com/@react-native-modal" returned a 405
       at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66996:18)
       at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140748:22)
       at Request.emit (events.js:310:20)

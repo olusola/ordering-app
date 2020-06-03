@@ -1,0 +1,89 @@
+{
+    "shops" : [
+        {
+            "meta": {
+                "shop_name": "store1",
+                "location": "soho",
+                "logo": ""
+            },
+            "menu_categories":["Coffee", "Cold", "shots", "snacks"],
+            "menu": [
+                {
+                    "id": 1,
+                    "category": "oneq",
+                    "menuItems": [
+                        {
+                            "label": "test",
+                            "Price_regular": "2.99"
+                        }
+                    ]
+                }
+            ],
+            "offers": "",
+            "voucher_code": [{}]
+        },
+        {
+            "meta": {
+                "shop_name": "store2",
+                "location": "oxford street"
+            },
+            "menu_categories":["main dishes", "sides", "drinks"],
+            "menu": [
+                {
+                    "id": 1,
+                    "category": "onwe",
+                    "menuItems": [
+                        {
+                            "label": "test",
+                            "Price_regular": "2.99"
+                        }
+                    ]
+                }
+            ],
+            "offers": "",
+            "voucher_code": [{}]
+        },
+        {
+            "meta": {
+                "shop_name": "store3",
+                "location": "westfield"
+            },
+            "menu_categories":["starter", "main", "drinks", "sides"],
+            "menu": [
+                {
+                    "id": 1,
+                    "category": "onwwe",
+                    "menuItems": [
+                        {
+                            "label": "test",
+                            "Price_regular": "2.99"
+                        }
+                    ]
+                }
+            ],
+            "offers": "",
+            "voucher_code": [{}]
+        },
+        {
+            "meta": {
+                "shop_name": "store4",
+                "location": "jamjam"
+            },
+            "menu_categories":["frappacino", "coffee", "snacks"],
+            "menu": [
+                {
+                    "id": 1,
+                    "category": "onew",
+                    "menuItems": [
+                        {
+                            "label": "test",
+                            "Price_regular": "2.99"
+                        }
+                    ]
+                }
+            ],
+            "offers": "",
+            "voucher_code": [{}]
+        }
+    ]
+}
