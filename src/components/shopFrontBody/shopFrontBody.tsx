@@ -80,12 +80,12 @@ const MenuItem = ({ title }:any) => {
             paddingTop: 40
             }}>
             <View>
-              <View style={{paddingHorizontal: 20}}>
+              <View style={{paddingHorizontal: 20, paddingBottom: 10, borderBottomWidth: 1, borderBottomColor: "#EDF2F7"}}>
                 <Text style={{textAlign: "center", fontWeight: "500", fontSize: 20}}>Frappacinno Chocolate</Text>
                 <Text style={{textAlign: "center", fontWeight: "300", fontSize: 16}}>containes alot of stuf for you body ahha kidding</Text>
               </View>
               <View style={{position: "absolute", top: -30, right: -5}}>
-                <Text onPress={() => setOpenModal(false)} style={{textAlign: "center", fontWeight: "600", fontSize: 22}}>X</Text>
+                <Text onPress={() => setOpenModal(false)} style={{textAlign: "center", fontWeight: "600", fontSize: 22, padding: 5, color: "#2D3748"}}>X</Text>
               </View>
             </View>
             <AddToBasket/>

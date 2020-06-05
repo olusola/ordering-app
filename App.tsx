@@ -19,16 +19,13 @@ const Stack = createStackNavigator();
 
 const DiscoverStack = () => (
   <Stack.Navigator headerMode="none">
-    <Stack.Screen name="DiscoverList" component={Discover}/>
+    <Stack.Screen name="DiscoverList" component={RootTabStack}/>
     <Stack.Screen name="ShopFront" component={ShopFront}/>
   </Stack.Navigator>
 )
 
-function App() {
-  return (
-    <SafeAreaProvider>
-      <NavigationContainer>
-        <Tab.Navigator
+const RootTabStack = () => (
+  <Tab.Navigator
           initialRouteName="Discover"
           screenOptions={({route}) => ({
             tabBarIcon: ({focused, color, size}) => {
@@ -58,9 +55,16 @@ function App() {
           
         >
           <Tab.Screen name="Account" component={Account} />
-          <Tab.Screen name="Discover" component={DiscoverStack} />
+          <Tab.Screen name="Discover" component={Discover} />
           <Tab.Screen name="Offers" component={Rewards} />
         </Tab.Navigator>
+)
+
+function App() {
+  return (
+    <SafeAreaProvider>
+      <NavigationContainer>
+        <DiscoverStack/>
       </NavigationContainer>
     </SafeAreaProvider>
   );
